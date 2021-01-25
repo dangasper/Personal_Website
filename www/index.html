@@ -36,7 +36,7 @@
 
   <body>
     <!-- Background -->
-    <div style="background-image: url(img/background.jpg);"></div>
+    <div class="animated-bg" style="background-image: url(img/background.jpg);"></div>
     
     <!-- Preloading Animation
     Spot Holder
@@ -45,30 +45,30 @@
     <div class="main">
       <div class="main_content">
         
-        <!-- Navigation Bar -->
+        <!-- Navigation Menu -->
         <nav class="navbar">
           <ul class="navbar-menu">
             <li class="active">
               <a href="#home">
-                <span class="navbar-icon"></span>
+                <span class="navbar-icon"><i class="fas fa-home"></i></span>
                 <span class="link-text">Home</span>
               </a>
             </li>
             <li>
               <a href="#about-me">
-                <span class="navbar-icon"></span>
+                <span class="navbar-icon"><i class="fas fa-user-tie"></i></span>
                 <span class="link-text">About Me</span>
               </a>
             </li>
             <li>
               <a href="#resume">
-                <span class="navbar-icon"></span>
+                <span class="navbar-icon"><i class="fas fa-file"></i></span>
                 <span class="link-text">Resume</span>
               </a>
             </li>
             <li>
               <a href="#blog">
-                <span class="navbar-icon"></span>
+                <span class="navbar-icon"><i class="fas fa-blog"></i></span>
                 <span class="link-text">Blog</span>
               </a>
             </li>            
@@ -99,10 +99,35 @@
             <a href="#" target="_blank" class="btn btn-primary">Download Resume</a>
           </div>
         </header>
+
+        <!-- Mobile Navbar -->
+        <div class="menu_toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="content_area">
+          <div class="content_block">
+            <section data-id="home" class="home_page">
+              <div class="section_content vcentered">
+                <div class="row">
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="title_block">
+                      <h2>Daniel Gasper</h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        
       </div>
     </div>
 
-    
+
     <!-- Load javascript modules -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
