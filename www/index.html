@@ -27,11 +27,82 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+      integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
+      crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <!-- Background -->
+    <div style="background-image: url(img/background.jpg);"></div>
+    
+    <!-- Preloading Animation
+    Spot Holder
+    -->
+    
+    <div class="main">
+      <div class="main_content">
+        
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+          <ul class="navbar-menu">
+            <li class="active">
+              <a href="#home">
+                <span class="navbar-icon"></span>
+                <span class="link-text">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about-me">
+                <span class="navbar-icon"></span>
+                <span class="link-text">About Me</span>
+              </a>
+            </li>
+            <li>
+              <a href="#resume">
+                <span class="navbar-icon"></span>
+                <span class="link-text">Resume</span>
+              </a>
+            </li>
+            <li>
+              <a href="#blog">
+                <span class="navbar-icon"></span>
+                <span class="link-text">Blog</span>
+              </a>
+            </li>            
+          </ul>
+        </nav>
 
+        <header id="page_header" class="header hide_menu_mobile">
+          <div class="header_content">
+              <div class="header_photo">
+                  <img src="img/profile.jpg" alt="Daniel Gasper">
+              </div>
+              <div class="header_title">
+                  <h2>Daniel Gasper</h2>
+                  <h4>Cyber Security Engineer</h4>
+              </div>
+          </div>
 
+          <div class="social_media">
+            <ul>
+              <li><a href="https://linkedin.com/in/dgasper" target="_blank">
+                <i class="fab fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/dangasper" target="_blank">
+                <i class="fab fa-github-square"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="main_buttons">
+            <a href="#" target="_blank" class="btn btn-primary">Download Resume</a>
+          </div>
+        </header>
+      </div>
+    </div>
+
+    
     <!-- Load javascript modules -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"
@@ -49,10 +120,6 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"
       integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ=="
      crossorigin="anonymous"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
-      integrity="sha512-3n19xznO0ubPpSwYCRRBgHh63DrV+bdZfHK52b1esvId4GsfwStQNPJFjeQos2h3JwCmZl0/LgLxSKMAI55hgw=="
-      crossorigin="anonymous"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.3/shuffle.min.js"
       integrity="sha512-VHIYn9ssmuPBliadBEgGCTRtCO4agkhQCxiPaTBKaAq0cm2KKpX+PE2klG1VfOHKKcN5eZcev0M3s5V2xXxVew=="
